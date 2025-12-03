@@ -82,6 +82,7 @@ a {
     flex: 0 1 0;
     align-items: center;
     justify-content: center;
+    padding: 64px 0;
 }
 
 .FeatureBox {
@@ -98,4 +99,57 @@ a {
     font-size: 18px;
     color: #1F2937;
     margin-top: 0;
+}
+
+.Bottom {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 64px 0;
+}
+
+.Bottom p {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    padding: 0px 256px;
+}
+
+#signature {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0px;
+    width: 50%;
+}
+
+.Footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px;
+    margin: 64px 250px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.Footer #Signup {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.Footer button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    height: 48px;
+    width: 150px;
+    border: solid 2px #F9FAF8;
+    border-radius: 8px;
+    cursor: pointer;
 }
