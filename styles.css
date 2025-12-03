@@ -68,3 +68,34 @@ a {
     border: solid 10px #3882F6;
     border-radius: 8px;
 }
+
+.Middle h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.Features {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.FeatureBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.FeatureBox p {
+    text-align: center;
+    max-width: 200px;
+    font-size: 18px;
+    color: #1F2937;
+    margin-top: 0;
+}
